@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store Temporarily Closed</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        background: radial-gradient(circle at top, #020617, #000);
+        color: #e5e7eb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+
+      .notice-box {
+        max-width: 600px;
+        width: 100%;
+        background: linear-gradient(180deg, #020617, #000);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        padding: 28px;
+        text-align: center;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7);
+      }
+
+      .notice-box h1 {
+        font-size: 1.8rem;
+        color: #f97316;
+        margin-bottom: 16px;
+      }
+
+      .notice-box p {
+        font-size: 1rem;
+        line-height: 1.7;
+        color: #d1d5db;
+        margin-bottom: 14px;
+      }
+
+      .highlight {
+        color: #22c55e;
+        font-weight: 600;
+      }
+
+      .discord-btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 14px 22px;
+        background: linear-gradient(135deg, #5865f2, #404eed);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: opacity 0.2s ease, transform 0.1s ease;
+      }
+
+      .discord-btn:hover {
+        opacity: 0.9;
+      }
+
+      .discord-btn:active {
+        transform: scale(0.97);
+      }
+
+      footer {
+        margin-top: 20px;
+        font-size: 0.85rem;
+        color: #9ca3af;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="notice-box">
+      <h1>⚠️ সাময়িকভাবে স্টোর বন্ধ</h1>
+
+      <p>
+        আমাদের <strong>Payment Merchant Account</strong> সেটআপ প্রক্রিয়াধীন
+        রয়েছে। এই কারণে
+        <span class="highlight"
+          >সাময়িকভাবে স্টোরের সকল পেমেন্ট কার্যক্রম বন্ধ</span
+        >
+        রাখা হয়েছে।
+      </p>
+
+      <p>
+        তবে চিন্তার কোনো কারণ নেই —
+        <span class="highlight"
+          >Discord Server এ সকল কার্যক্রম স্বাভাবিকভাবে চলমান রয়েছে</span
+        >। যেকোনো আপডেট, সাপোর্ট বা তথ্যের জন্য আমাদের Discord এ যুক্ত থাকুন।
+      </p>
+
+      <a
+        class="discord-btn"
+        href="https://discord.gg/KUD6v48xq4"
+        target="_blank"
+      >
+        Join Our Discord Server
+      </a>
+
+      <footer>Merchant account active হলেই স্টোর পুনরায় চালু করা হবে।</footer>
+    </div>
+  </body>
+</html>
